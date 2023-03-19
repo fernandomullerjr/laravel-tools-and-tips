@@ -1,5 +1,5 @@
 
-# Usar as seguintes configurações no Dockerfile
+# Usar as seguintes configurações no Dockerfile, para definir um usuário especifico com privilégios de grupo www-data
 
 ARG PUID=1000
 ENV PUID ${PUID}
